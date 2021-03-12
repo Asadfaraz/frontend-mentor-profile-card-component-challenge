@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: hsl(185, 75%, 39%);
+
+  height: 100vh;
+}
+
+/* background image top */
+.img-top {
+  bottom: 25%;
+  left: -25%;
+  position: fixed;
+  z-index: -1;
+}
+/* background image bottom*/
+.img-btm {
+  position: fixed;
+  right: -25%;
+  top: 25%;
+  z-index: -1;
+}
+
+/* main container */
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  place-items: center;
+
+  font-family: "Kumbh Sans";
+}
+
+/* Card */
+.card {
+  background-color: white;
+  width: 320px;
+  height: 350px;
+
+  border-radius: 20px;
+}
+/* card pattern image */
+.crdptrn {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* profile of card */
+.profile {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: -55px;
+
+  align-items: center;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.profileimg {
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.profile p {
+  margin-top: -10px;
+  font-size: 18px;
+  font-weight: 400;
+
+  color: hsl(227, 10%, 46%);
+}
+.nameage h3 {
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+.nameage span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+/* profile other info */
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  text-align: center;
+}
+.profile-info h3 {
+  color: hsl(229, 23%, 23%);
+}
+.profile-info p {
+  margin-top: -15px;
+  font-size: 12px;
+
+  color: hsl(227, 10%, 46%);
+}
